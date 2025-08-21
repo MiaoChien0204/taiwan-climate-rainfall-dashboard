@@ -1,4 +1,4 @@
-# 台灣氣候變遷降雨風險儀表板-大雨日趨勢圖
+# 台灣氣候變遷風險儀表板-大雨日趨勢變化
 
 [![Shiny](https://img.shields.io/badge/Shiny-1.7.0+-blue.svg)](https://shiny.rstudio.com/)
 [![R](https://img.shields.io/badge/R-4.0+-green.svg)](https://www.r-project.org/)
@@ -40,7 +40,6 @@
 
 🔗 **線上展示**: [台灣降雨風險儀表板](https://miaochien.shinyapps.io/ccdashboard-rain/)
 
-![Desktop Dashboard](www/img/2020_heavyRainRisk.gif)
 
 
 ## 📊 視覺化特色
@@ -95,7 +94,7 @@ install.packages(c(
 ### 執行應用程式
 1. 複製此儲存庫：
 ```bash
-git clone https://github.com/[your-username]/taiwan-climate-rainfall-dashboard.git
+git clone https://github.com/MiaoChien0204/taiwan-climate-rainfall-dashboard.git
 cd taiwan-climate-rainfall-dashboard
 ```
 

@@ -64,7 +64,7 @@ install.packages(c(
 ### Running Locally
 1. Clone this repository:
 ```bash
-git clone https://github.com/[your-username]/taiwan-climate-rainfall-dashboard.git
+git clone https://github.com/MiaoChien0204/taiwan-climate-rainfall-dashboard.git
 cd taiwan-climate-rainfall-dashboard
 ```
 
