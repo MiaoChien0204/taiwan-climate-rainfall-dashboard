@@ -1,0 +1,671 @@
+* {
+  font-family: 'Taipei Sans TC', 'Helvetica', 'Microsoft JhengHei', Sans-serif;
+  letter-spacing: 1px;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.container-fluid.outer{
+  padding: 0px;
+}
+
+.container-fluid{
+  margin: 0px;   
+  padding: 0px;
+}
+
+.left-control-panel{
+  /* border: solid 5px purple; */
+  padding-left: 2%;
+  padding-top: 3vh;
+  display: inline-block;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.block{
+/*   border: solid 1px; */
+  display: inline-block;
+  width: 100%
+}
+
+#senario,
+#presentType_TP, #presentType_NT, #presentType_TY, #presentType_TC, #presentType_TN, #presentType_KS{
+  display:none
+}
+
+.block_logo{
+  /*   height: 8vh; */
+}
+  
+.block_logo .logo{
+  width: 60%;
+  min-width: 220px;
+} 
+
+/* temp */
+
+.btn-inline{
+  padding-left: 0px;
+  padding-bottom: 1vh;
+}
+
+
+#main-title p{
+  margin-top: 10px;
+  font-size: 4vw;
+  color: #555;
+}
+
+.mobile{
+  display: none;
+}
+
+.description p{
+  margin:0px;
+  line-height: 3vh;
+  font-size: 0.8vw;
+  color: #999;
+ 
+}
+
+.description p{
+  margin:0px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #999;
+}
+
+.description span p{
+/*   font-size: 1.2vw; */
+  font-size: large;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#note-panel{
+/*   border: solid 1px;  */
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 100px;
+ }
+
+#note-panel span p{
+  margin: 0px;
+  font-size: 12px;
+  color: #999;
+}
+
+#note-panel p{
+  font-size: 8px;
+  line-height: 15px;
+}
+
+
+.bttn-pill.bttn-primary{
+  background: #5bc501;
+}
+
+.bttn-pill{
+  width: 10vw;
+}
+
+.btn-inline>.bttn{
+  margin-top: 3vh; 
+  margin-bottom: 3vh; 
+  margin-right: 3vw;
+  font-size: 1vw;
+}
+
+.btn-group>.btn{
+  margin-right: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: calc( 12vw - 5px);
+}
+
+
+.conditionPanel-info{
+/*   border: solid 1px; */
+  padding-right: 3vw;
+}
+
+
+.yearSelection{
+/*   border: solid 1px red; */
+  display: inline-block;
+  margin-top: 1vh;
+  width: 100%;
+  position:relative;
+  margin-bottom: 40px;
+}
+
+.yearSelection .control-label{
+  margin-bottom: 0px;
+  width: 100%;
+/*   border: solid 1px blue; */
+  position: absolute;
+  top: 10px;
+  right: -60px;
+}
+
+.yearSelection .glyphicon{
+  font-size: 48px;
+  color: #5bc501;
+/*   border: solid 1px purple; */
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+
+
+/* sliderbar */
+
+span.irs {
+  margin-left: 10px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.irs-grid-pol {
+  display: none;
+}
+
+.irs-min, .irs-max{
+  display: none;
+}
+
+.irs-single{
+  background: none;
+  color: #52ae03 !important;
+  font-size: 24px !important;
+  transform: translateY(-18px) !important;
+  background-color: transparent !important;
+  padding: 0px !important;
+}
+
+.irs-bar {
+  border-top: 1px solid #5bc501 !important;
+  border-bottom: 1px solid #5bc501 !important;
+  background: #5bc501 !important;
+}
+
+.irs-slider {
+  background-color: #5bc501 !important;
+  border: none;
+}
+
+.irs-grid-text{
+  color: #888 !important;
+}
+
+.irs-bar-edge {
+  border: 1px solid #5bc501 !important;
+  background: #5bc501 !important;
+}
+
+
+.slider-animate-button{
+  opacity: 1;
+}
+
+
+
+.yearSelection .glyphicon-play-circle {
+  -webkit-animation: zoom 1.5s infinite linear
+}
+
+@keyframes zoom {
+  0%, 100% {
+    font-size: 48px;
+    color: #FFA642;
+  }
+
+  50%{
+    font-size: 52px;
+    color: #FE312E;
+  }
+
+}
+
+.irs-slider.single{
+  font-size: 5px !important;
+}
+
+
+
+/* legend */
+
+#legend-img{
+  width: 100%;
+  
+}
+
+
+
+/* map */
+
+.right-control-panel{
+/*   border: solid 1px red; */
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;  
+}
+
+.modebar, .leaflet-control, .shiny-output-error{
+  display:none;
+}
+
+
+.leaflet-tile-container img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+    -webkit-filter: hue-rotate(180deg) invert(80%);
+}
+
+
+.container-fluid{
+  position: relative;
+}
+
+.menu{
+  position: absolute;
+  z-index:1;
+  top: 60px;
+  right: 50px;
+}
+
+.menu-hamburger1{
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: #ccc;    
+  position: relative;
+}
+
+.menu-hamburger2{
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: #ccc;    
+  transform: translateY(10px);
+}
+
+
+.menu-circle{
+  content: '';
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 3px solid #ccc;
+  display: inline-block;
+  transform: translate(-20%, -50%);
+  transition: 0.5s
+}
+
+.menu-circle:hover{
+  cursor: pointer;
+  border: 3px solid #ffffff;
+}
+
+
+
+#menuToggle
+{
+  display: block;
+/*   position: relative; */
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #5bc501;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd94;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-50%, -100%);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: translate(-50%,0%);
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+    body{
+      overflow: initial;
+      overflow-x: hidden;
+    }
+
+    #menuToggle
+    {
+      top: 60px;
+      right: 10px;
+     
+    }
+
+   .left-control-panel{
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow-y: initial;
+    height: initial;
+  }
+
+  .right-control-panel{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #main-title{
+/*     border: solid 1px blue; */
+    text-align: center;
+  }
+
+  #main-title p{
+    font-size: 9vw;
+    
+  }
+  
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: initial;
+  }
+
+  .description span p{
+    line-height: 35px;
+    font-size: 14px;
+  }
+  
+  .description p{
+    line-height: 35px;
+    font-size: 12px;
+  }
+  
+  .btn-inline{
+    text-align: center;
+  }
+
+  .bttn-pill{
+    min-width: 35vw;
+    max-width: 60vw;
+  }
+  
+
+  .btn-inline>.bttn{
+    font-size: 14px;
+  }
+
+
+ 
+  .yearSelection-label, .yearSelection2-label, .citySelection2_label, #legend-map>p{
+    font-size: 3vw;
+    margin-bottom: 1vh;
+  }
+
+  .yearSelection{
+/*     border: solid 1px red; */
+    margin-bottom: 30px;
+  }
+
+  .control-label{
+    display: inline-block;
+/*     border: solid 1px blue; */
+    left: 65px;
+    margin-top: 0px;
+  }
+
+ 
+
+  .yearSelection .glyphicon{
+/*     font-size: 18px; */
+/*     transform: translateY(12px); */
+  }
+
+  span.irs{
+    margin-top: 90px
+  }
+
+  .right-control-panel{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  #map_80mm, #map_200mm{
+/*     border: solid 1px blue; */
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #map_TP, #map_NT, #map_TY, #map_TC, #map_TN, #map_KS{
+  /*   height: 100vh !important; */
+    height: 70vh !important;
+  }
+
+  .description.mobile {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .menu{
+    top: 30px;
+    right: 10px;
+    transform: scale(0.8, 0.8);
+  }
+
+  .menu-hamburger1, .menu-hamburger2{
+    background-color: #969595;
+  }
+
+  .menu-circle{
+    border: 3px solid #969595;
+  }
+
+}
+
+@media(max-width: 414px){
+  #main-title{
+/*     border: solid 1px green; */
+  }
+}
+
+
+
+ #map_80mm, #map_200mm{
+/*   border: solid 2px #11b611; */
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000,  #a5a2a2);
+}
+
+ 
+.map-and-rain {
+  /*   background-image: url(img/Taiwan_200mm/1983.png); */
+  width: 100%;
+  height: 100%;
+  /* img test */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* img test */
+.rainMap{
+  height: 90%;
+}
+
+#map_80mm:before, #map_200mm:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-size: cover;
+  
+}
+
+#map_80mm:before{
+  background: url(img/rain_80mm.png);
+  animation: rain_80mm 2s linear infinite;
+}
+
+#map_200mm:before{
+  background: url(img/rain_200mm.png);
+  animation: rain_200mm 2s linear infinite;
+}
+
+
+@keyframes rain_80mm{
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+/*     background-position: -20% -100%; */
+    background-position: 10% 300%;
+  }
+}
+
+@keyframes rain_200mm{
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+/*     background-position: -20% -100%; */
+    background-position: 10% 800%;
+  }
+}
+
+
