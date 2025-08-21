@@ -136,7 +136,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Taiwan Climate Change Projection Information and Adaptation Knowledge Platform (TCCIP)
 - National Science and Technology Center for Disaster Reduction
 - Central Weather Bureau of Taiwan
-- Greenpeace Taiwan (Original campaign context)
+- Greenpeace East Asia, Taiwan Office (Original campaign context)
 
 ---
 

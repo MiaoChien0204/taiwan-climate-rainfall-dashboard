@@ -4,7 +4,7 @@
 
 ### Taiwan Climate Change Projection Information and Adaptation Knowledge Platform (TCCIP)
 - **Organization**: National Science and Technology Center for Disaster Reduction
-- **Website**: https://tccip.ncdr.nat.gov.tw/
+- **Website**: https://tccip.ncdr.nat.gov.tw/index_eng.aspx
 - **Data Type**: Daily precipitation projections
 - **Temporal Coverage**: 1980-2100
 - **Spatial Resolution**: Taiwan regional grid
@@ -131,7 +131,7 @@ Visualization: Interactive web dashboard (R Shiny)
 ## Contact for Data Questions
 
 For technical questions about the underlying climate data:
-- **TCCIP Platform**: https://tccip.ncdr.nat.gov.tw/
+- **TCCIP Platform**: https://tccip.ncdr.nat.gov.tw/index_eng.aspx
 - **Contact**: TCCIP support team
 
 For questions about this specific implementation:
